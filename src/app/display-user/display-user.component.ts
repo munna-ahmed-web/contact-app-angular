@@ -1,4 +1,4 @@
-import { Component, DoCheck, EventEmitter, OnInit, Output, inject } from '@angular/core';
+import { Component, DoCheck, EventEmitter, Output, inject } from '@angular/core';
 import { ContactDataService } from 'src/services/contact-data.service';
 
 @Component({

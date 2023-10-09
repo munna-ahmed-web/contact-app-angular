@@ -1,4 +1,4 @@
-import { Component, DoCheck, Input, OnChanges, OnDestroy, OnInit, SimpleChanges, inject } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, inject } from '@angular/core';
 import { ContactDataService } from 'src/services/contact-data.service';
 import { UserDataShape } from 'src/types/type';
 
