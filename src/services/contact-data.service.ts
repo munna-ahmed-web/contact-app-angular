@@ -4,12 +4,7 @@ import { UserDataShape } from 'src/types/type';
 @Injectable()
 export class ContactDataService {
   constructor() {}
-  allUserInfo: UserDataShape[] = [{
-    name : 'Munna Ahmed',
-    phone : 1745412386,
-    email : 'string@gmail.com',
-    address : 'Kaya'
-}];
+  allUserInfo: UserDataShape[] = [];
 
   setUserInfo = (userInfo: UserDataShape) => {
     let hasContact;
