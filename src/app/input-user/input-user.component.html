@@ -22,9 +22,9 @@
 
 
 
-<div *ngIf="editUserData" >
+<div *ngIf="hasData" >
     <h3>Are You Sure ?</h3>
-    <div *ngIf="isConfirmed" class="confirmSection" >
+    <div class="confirmSection" >
         <button (click)="handleConfirm()" >Confirm</button>
         <Button (click)="handleCancel()" >Cancel</Button>
     </div>
