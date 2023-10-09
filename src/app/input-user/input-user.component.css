@@ -1,0 +1,18 @@
+
+.singleInputSection{
+    margin-bottom: 10px;
+}
+
+input{
+    width: 45%;
+    border: none;
+    border-radius: 2px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.confirmSection button{
+    margin: 0 5px;
+}

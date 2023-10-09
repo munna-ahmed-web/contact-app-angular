@@ -1,0 +1,32 @@
+<form (submit)="handleSubmit()">
+    <div class="singleInputSection">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" [(ngModel)]="user.name"  >
+    </div>
+    <div class="singleInputSection">
+        <label for="phoneNumber">Phone Number:</label><br>
+        <input type="number" id="phoneNumber" name="phoneNumber" [(ngModel)]="user.phone">
+    </div>
+    <div class="singleInputSection">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" [(ngModel)]="user.email" >
+    </div>
+    <div class="singleInputSection">
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" [(ngModel)]="user.address" >
+    </div>
+    <div>
+        <button type="submit">Save</button>
+    </div>
+</form>
+
+
+
+<div *ngIf="editUserData" >
+    <h3>Are You Sure ?</h3>
+    <div *ngIf="isConfirmed" class="confirmSection" >
+        <button (click)="handleConfirm()" >Confirm</button>
+        <Button (click)="handleCancel()" >Cancel</Button>
+    </div>
+</div>
+

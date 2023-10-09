@@ -1,0 +1,4 @@
+#displayUser{
+    display: grid;
+    grid-template-columns: 100%;
+}

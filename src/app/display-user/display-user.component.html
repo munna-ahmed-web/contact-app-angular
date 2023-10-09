@@ -1,0 +1,10 @@
+<div *ngIf="usersData.length > 0" id="displayUser" >
+    <div *ngFor="let user of usersData" >
+        <app-show-single-user [singleUser]="user" (editEvent)="dataFromChild($event)" ></app-show-single-user>
+    </div>
+</div>
+
+<div *ngIf="usersData.length <= 0">
+    <h4>No users available there</h4>
+</div>
+

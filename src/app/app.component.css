@@ -1,0 +1,24 @@
+
+#mainSection{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+
+#title{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#userSection{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 10px;
+}
+
+.two{
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    padding: 10px;
+}
+

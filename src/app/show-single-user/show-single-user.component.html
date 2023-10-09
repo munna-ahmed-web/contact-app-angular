@@ -1,0 +1,12 @@
+<div class="singleUser" >
+  <div id="singleUserShow">
+    <p>{{ user.name }}</p>
+    <p>{{ user.email }}</p>
+    <p>{{ user.phone }}</p>
+    <p>{{ user.address }}</p>
+  </div>
+  <div class="edit">
+    <button (click)="handleDelete(user)">Delete</button>
+    <button (click)="handleEdit(user)">Edit</button>
+  </div>
+</div>
